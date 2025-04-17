@@ -9,7 +9,7 @@ import logger from '../server/logger.js'
 
 const router = express.Router();
 const uuid = crypto.randomUUID();
-let hamburg_token = process.env.HAMBURG_ACCOUNT_TOKEN;
+let account_token = process.env.ACCOUNT_TOKEN;
 
 router.get('/', (req, res) => {
     res.send(`${uuid}`);
@@ -24,7 +24,7 @@ router.get('/register', async (req, res) => {
             logger.log('error', { message: `agent_symbol or faction not provided.` });
             return res.status(400).send(`Configuration error: Account token for ${acc_name} not found.`);
         } else {
-            let user_registration_info = await register_user(agent_symbol,faction);
+            let user_registration_info = await register_user(agent_symbol, faction);
             res.json(`${user_registration_info}`);
         }
 
@@ -39,13 +39,13 @@ router.get('/login/:name', async (req, res) => {
         let acc_name = req.params.name;
         acc_name = acc_name.toLocaleUpperCase();
         const acc_token_key = `${acc_name}_ACCOUNT_TOKEN`
-        let account_token = process.env[acc_token_key];
-        if (!account_token) {
+        let agent_token = process.env[acc_token_key];
+        if (!agent_token) {
             console.error(`Environment variable ${acc_token_key} not found.`);
             return res.status(400).send(`Configuration error: Account token for ${acc_name} not found.`);
         }
             console.log(`Using token key: ${acc_token_key}`);
-            let user_info = await log_in(account_token);
+            let user_info = await log_in(agent_token);
             console.log(`ROUTE LOG: ${JSON.stringify(user_info)}`);
             req.session.user_info = user_info;
             res.redirect(`/${req.params.name}/details`)

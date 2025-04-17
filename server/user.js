@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-export async function log_in(account_token) {
+export async function log_in(agent_token) {
   try {
     const response = await axios.get('https://api.spacetraders.io/v2/my/agent', {
         headers: {
-            'Authorization': `Bearer ${account_token}`,
+            'Authorization': `Bearer ${agent_token}`,
             'Content-Type': 'application/json'
         }
     });
@@ -17,15 +17,15 @@ export async function log_in(account_token) {
 }
 
 
-export async function register_user(agent_symbol,faction) {
+export async function register_user(agent_symbol, faction) {
   axios.post('https://api.spacetraders.io/v2/register', {
       headers: {
-          'Authorization': `Bearer ${account_token}`,
           'Content-Type': 'application/json'
       },
       data: {
         "symbol": `${agent_symbol}`,
-        "faction":`${faction}`
+        "faction":`${faction}`,
+        "email": `${process.env.EMAIL}`
       }
     })
     .then(function (response) {
