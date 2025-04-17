@@ -23,9 +23,10 @@ router.get('/register', async (req, res) => {
         if (!agent_symbol || !faction) {
             logger.log('error', { message: `agent_symbol or faction not provided.` });
             return res.status(400).send(`Configuration error: Account token for ${acc_name} not found.`);
+        } else {
+            let user_registration_info = await register_user(agent_symbol,faction);
+            res.json(`${user_registration_info}`);
         }
-            let user_registration_token = await register_user(agent_symbol,faction);
-            res.send(`${user_registration_info}`);
 
     } catch (error) {
         logger.log('error', { message: `An internal server error occurred during registration, ${error}` })
@@ -83,13 +84,12 @@ router.get('/:name/navigation', async (req, res) => {
         const user_info = req.session.user_info;
         if (user_info && headquarters) {
             console.log("User Info from session:", user_info);
-            console.log(user_info.data.headquarters);
             let headquarters_waypoint = user_info.data.headquarters;
             let headquarters_system = `${headquarters_waypoint.split("-")[0]}-${headquarters_waypoint.split("-")[1]}`;
             console.log(headquarters_system);
             let headquarters_location_info = await get_location_info(headquarters_system, headquarters_waypoint);
             res.json(headquarters_location_info);
-        } else {
+        } else if (system && waypoint) {
             let query_location_info = await get_location_info(system, waypoint);
             res.json(query_location_info);
         }
