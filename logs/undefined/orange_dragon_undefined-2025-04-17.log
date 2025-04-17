@@ -1,0 +1,520 @@
+{
+  meta: {
+    req: {
+      url: '/login/hamburg',
+      headers: {
+        host: 'localhost:3001',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Brave";v="134"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'sec-gpc': '1',
+        'accept-language': 'en-US,en;q=0.5',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        cookie: '_store_session=pixAiVsI4HBzyXe9dRXh%2Bz2k3jlfqG3ENEdC4gwkQHhzqtE1BioPmwSFfgr08JCYdkLL6CZvQHcSvONM0jMzbjQUp4IxKt9YIMgOtrp%2FiG0co%2Fl8IJyi7TKCNtZASobHmosIJm%2FMRYckWUAfUBeeY1zx9J4ZCX5HIenMRRE1AWvEoxCendtCjabE7coqiSQ21z6pwTAVfZWDg0PmHUhVKb4P8rEKgVUYt63JX2xo1Z6IEpKhdzFYhUEoZ9OqFx38Rgm588y3oNWtAT%2FnK7zQpaHrDAPOkQ%3D%3D--xrWNmWQZXOS0g0y5--vEb6BX2RbBtqxUxJDnXUIQ%3D%3D; connect.sid=s%3AIgyWpLqDiDPb9PWkgMzb_ScXQGig43Mf.4ootWFMaMGfQpfWn2dT1Sh3lmQ9m986LtJfhpA%2BcY6g'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/login/hamburg',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 302 },
+    responseTime: 644
+  },
+  level: 'info',
+  message: '\x1B[90mGET /login/hamburg\x1B[39m \x1B[36m302\x1B[39m \x1B[90m644ms\x1B[39m',
+  timestamp: '2025-04-17T05:00:06.618Z'
+}
+{
+  meta: {
+    req: {
+      url: '/hamburg/details',
+      headers: {
+        host: 'localhost:3001',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'sec-gpc': '1',
+        'accept-language': 'en-US,en;q=0.5',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Brave";v="134"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        cookie: '_store_session=pixAiVsI4HBzyXe9dRXh%2Bz2k3jlfqG3ENEdC4gwkQHhzqtE1BioPmwSFfgr08JCYdkLL6CZvQHcSvONM0jMzbjQUp4IxKt9YIMgOtrp%2FiG0co%2Fl8IJyi7TKCNtZASobHmosIJm%2FMRYckWUAfUBeeY1zx9J4ZCX5HIenMRRE1AWvEoxCendtCjabE7coqiSQ21z6pwTAVfZWDg0PmHUhVKb4P8rEKgVUYt63JX2xo1Z6IEpKhdzFYhUEoZ9OqFx38Rgm588y3oNWtAT%2FnK7zQpaHrDAPOkQ%3D%3D--xrWNmWQZXOS0g0y5--vEb6BX2RbBtqxUxJDnXUIQ%3D%3D; connect.sid=s%3AF7SZ33V16NB5DnGocP67YExjK03T2v0S.woBFyGBwfJZfMGayRpTNZFb41nPQVibgknEWF2PGZ9A',
+        'if-none-match': 'W/"b4-5YIGwGO4wZRJ0XHakW9sp+ZbK9w"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/hamburg/details',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: '\x1B[90mGET /hamburg/details\x1B[39m \x1B[36m304\x1B[39m \x1B[90m1ms\x1B[39m',
+  timestamp: '2025-04-17T05:00:06.624Z'
+}
+{
+  meta: {
+    req: {
+      url: '/hamburg/navigation',
+      headers: {
+        host: 'localhost:3001',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Brave";v="134"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'sec-gpc': '1',
+        'accept-language': 'en-US,en;q=0.5',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        cookie: '_store_session=pixAiVsI4HBzyXe9dRXh%2Bz2k3jlfqG3ENEdC4gwkQHhzqtE1BioPmwSFfgr08JCYdkLL6CZvQHcSvONM0jMzbjQUp4IxKt9YIMgOtrp%2FiG0co%2Fl8IJyi7TKCNtZASobHmosIJm%2FMRYckWUAfUBeeY1zx9J4ZCX5HIenMRRE1AWvEoxCendtCjabE7coqiSQ21z6pwTAVfZWDg0PmHUhVKb4P8rEKgVUYt63JX2xo1Z6IEpKhdzFYhUEoZ9OqFx38Rgm588y3oNWtAT%2FnK7zQpaHrDAPOkQ%3D%3D--xrWNmWQZXOS0g0y5--vEb6BX2RbBtqxUxJDnXUIQ%3D%3D; connect.sid=s%3AF7SZ33V16NB5DnGocP67YExjK03T2v0S.woBFyGBwfJZfMGayRpTNZFb41nPQVibgknEWF2PGZ9A',
+        'if-none-match': 'W/"14-W6K23fSuYbXpUdZI1JvAReVC5Ew"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/hamburg/navigation',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 160
+  },
+  level: 'info',
+  message: '\x1B[90mGET /hamburg/navigation\x1B[39m \x1B[32m200\x1B[39m \x1B[90m160ms\x1B[39m',
+  timestamp: '2025-04-17T05:00:10.036Z'
+}
+{
+  meta: {
+    req: {
+      url: '/login/hamburg',
+      headers: {
+        host: 'localhost:3001',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Brave";v="134"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'sec-gpc': '1',
+        'accept-language': 'en-US,en;q=0.5',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        cookie: '_store_session=pixAiVsI4HBzyXe9dRXh%2Bz2k3jlfqG3ENEdC4gwkQHhzqtE1BioPmwSFfgr08JCYdkLL6CZvQHcSvONM0jMzbjQUp4IxKt9YIMgOtrp%2FiG0co%2Fl8IJyi7TKCNtZASobHmosIJm%2FMRYckWUAfUBeeY1zx9J4ZCX5HIenMRRE1AWvEoxCendtCjabE7coqiSQ21z6pwTAVfZWDg0PmHUhVKb4P8rEKgVUYt63JX2xo1Z6IEpKhdzFYhUEoZ9OqFx38Rgm588y3oNWtAT%2FnK7zQpaHrDAPOkQ%3D%3D--xrWNmWQZXOS0g0y5--vEb6BX2RbBtqxUxJDnXUIQ%3D%3D; connect.sid=s%3AF7SZ33V16NB5DnGocP67YExjK03T2v0S.woBFyGBwfJZfMGayRpTNZFb41nPQVibgknEWF2PGZ9A'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/login/hamburg',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 302 },
+    responseTime: 674
+  },
+  level: 'info',
+  message: '\x1B[90mGET /login/hamburg\x1B[39m \x1B[36m302\x1B[39m \x1B[90m674ms\x1B[39m',
+  timestamp: '2025-04-17T05:01:57.435Z'
+}
+{
+  meta: {
+    req: {
+      url: '/hamburg/details',
+      headers: {
+        host: 'localhost:3001',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'sec-gpc': '1',
+        'accept-language': 'en-US,en;q=0.5',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Brave";v="134"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        cookie: '_store_session=pixAiVsI4HBzyXe9dRXh%2Bz2k3jlfqG3ENEdC4gwkQHhzqtE1BioPmwSFfgr08JCYdkLL6CZvQHcSvONM0jMzbjQUp4IxKt9YIMgOtrp%2FiG0co%2Fl8IJyi7TKCNtZASobHmosIJm%2FMRYckWUAfUBeeY1zx9J4ZCX5HIenMRRE1AWvEoxCendtCjabE7coqiSQ21z6pwTAVfZWDg0PmHUhVKb4P8rEKgVUYt63JX2xo1Z6IEpKhdzFYhUEoZ9OqFx38Rgm588y3oNWtAT%2FnK7zQpaHrDAPOkQ%3D%3D--xrWNmWQZXOS0g0y5--vEb6BX2RbBtqxUxJDnXUIQ%3D%3D; connect.sid=s%3AJ-f2GD1xmbw9qAvddlQCzMJZNEoa6bWh.rACMMYhLoK%2Bcj2FwPikRW4UJmMS%2FtqgoalQ01d7cTWU',
+        'if-none-match': 'W/"b4-5YIGwGO4wZRJ0XHakW9sp+ZbK9w"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/hamburg/details',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: '\x1B[90mGET /hamburg/details\x1B[39m \x1B[36m304\x1B[39m \x1B[90m1ms\x1B[39m',
+  timestamp: '2025-04-17T05:01:57.440Z'
+}
+{
+  meta: {
+    req: {
+      url: '/hamburg/navigation',
+      headers: {
+        host: 'localhost:3001',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Brave";v="134"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'sec-gpc': '1',
+        'accept-language': 'en-US,en;q=0.5',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        cookie: '_store_session=pixAiVsI4HBzyXe9dRXh%2Bz2k3jlfqG3ENEdC4gwkQHhzqtE1BioPmwSFfgr08JCYdkLL6CZvQHcSvONM0jMzbjQUp4IxKt9YIMgOtrp%2FiG0co%2Fl8IJyi7TKCNtZASobHmosIJm%2FMRYckWUAfUBeeY1zx9J4ZCX5HIenMRRE1AWvEoxCendtCjabE7coqiSQ21z6pwTAVfZWDg0PmHUhVKb4P8rEKgVUYt63JX2xo1Z6IEpKhdzFYhUEoZ9OqFx38Rgm588y3oNWtAT%2FnK7zQpaHrDAPOkQ%3D%3D--xrWNmWQZXOS0g0y5--vEb6BX2RbBtqxUxJDnXUIQ%3D%3D; connect.sid=s%3AJ-f2GD1xmbw9qAvddlQCzMJZNEoa6bWh.rACMMYhLoK%2Bcj2FwPikRW4UJmMS%2FtqgoalQ01d7cTWU',
+        'if-none-match': 'W/"5ef-qCEdwvm63ox3cAch/5MSAEPJ5WU"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/hamburg/navigation',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 664
+  },
+  level: 'info',
+  message: '\x1B[90mGET /hamburg/navigation\x1B[39m \x1B[32m200\x1B[39m \x1B[90m664ms\x1B[39m',
+  timestamp: '2025-04-17T05:02:03.191Z'
+}
+{
+  meta: {
+    req: {
+      url: '/login/hamburg',
+      headers: {
+        host: 'localhost:3001',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Brave";v="134"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'sec-gpc': '1',
+        'accept-language': 'en-US,en;q=0.5',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        cookie: '_store_session=pixAiVsI4HBzyXe9dRXh%2Bz2k3jlfqG3ENEdC4gwkQHhzqtE1BioPmwSFfgr08JCYdkLL6CZvQHcSvONM0jMzbjQUp4IxKt9YIMgOtrp%2FiG0co%2Fl8IJyi7TKCNtZASobHmosIJm%2FMRYckWUAfUBeeY1zx9J4ZCX5HIenMRRE1AWvEoxCendtCjabE7coqiSQ21z6pwTAVfZWDg0PmHUhVKb4P8rEKgVUYt63JX2xo1Z6IEpKhdzFYhUEoZ9OqFx38Rgm588y3oNWtAT%2FnK7zQpaHrDAPOkQ%3D%3D--xrWNmWQZXOS0g0y5--vEb6BX2RbBtqxUxJDnXUIQ%3D%3D; connect.sid=s%3AJ-f2GD1xmbw9qAvddlQCzMJZNEoa6bWh.rACMMYhLoK%2Bcj2FwPikRW4UJmMS%2FtqgoalQ01d7cTWU'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/login/hamburg',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 302 },
+    responseTime: 545
+  },
+  level: 'info',
+  message: '\x1B[90mGET /login/hamburg\x1B[39m \x1B[36m302\x1B[39m \x1B[90m545ms\x1B[39m',
+  timestamp: '2025-04-17T05:02:50.653Z'
+}
+{
+  meta: {
+    req: {
+      url: '/hamburg/details',
+      headers: {
+        host: 'localhost:3001',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'sec-gpc': '1',
+        'accept-language': 'en-US,en;q=0.5',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Brave";v="134"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        cookie: '_store_session=pixAiVsI4HBzyXe9dRXh%2Bz2k3jlfqG3ENEdC4gwkQHhzqtE1BioPmwSFfgr08JCYdkLL6CZvQHcSvONM0jMzbjQUp4IxKt9YIMgOtrp%2FiG0co%2Fl8IJyi7TKCNtZASobHmosIJm%2FMRYckWUAfUBeeY1zx9J4ZCX5HIenMRRE1AWvEoxCendtCjabE7coqiSQ21z6pwTAVfZWDg0PmHUhVKb4P8rEKgVUYt63JX2xo1Z6IEpKhdzFYhUEoZ9OqFx38Rgm588y3oNWtAT%2FnK7zQpaHrDAPOkQ%3D%3D--xrWNmWQZXOS0g0y5--vEb6BX2RbBtqxUxJDnXUIQ%3D%3D; connect.sid=s%3A_DqINfDct96WnH-G9zIJyd5g9j_bkTKd.nGz2yhrRTI%2Btzp7s5KmCcLc9XUdlJRM8HY4CEh7PyH0',
+        'if-none-match': 'W/"b4-5YIGwGO4wZRJ0XHakW9sp+ZbK9w"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/hamburg/details',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 2
+  },
+  level: 'info',
+  message: '\x1B[90mGET /hamburg/details\x1B[39m \x1B[36m304\x1B[39m \x1B[90m2ms\x1B[39m',
+  timestamp: '2025-04-17T05:02:50.657Z'
+}
+{
+  meta: {
+    req: {
+      url: '/hamburg/navigation',
+      headers: {
+        host: 'localhost:3001',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Brave";v="134"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'sec-gpc': '1',
+        'accept-language': 'en-US,en;q=0.5',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        cookie: '_store_session=pixAiVsI4HBzyXe9dRXh%2Bz2k3jlfqG3ENEdC4gwkQHhzqtE1BioPmwSFfgr08JCYdkLL6CZvQHcSvONM0jMzbjQUp4IxKt9YIMgOtrp%2FiG0co%2Fl8IJyi7TKCNtZASobHmosIJm%2FMRYckWUAfUBeeY1zx9J4ZCX5HIenMRRE1AWvEoxCendtCjabE7coqiSQ21z6pwTAVfZWDg0PmHUhVKb4P8rEKgVUYt63JX2xo1Z6IEpKhdzFYhUEoZ9OqFx38Rgm588y3oNWtAT%2FnK7zQpaHrDAPOkQ%3D%3D--xrWNmWQZXOS0g0y5--vEb6BX2RbBtqxUxJDnXUIQ%3D%3D; connect.sid=s%3A_DqINfDct96WnH-G9zIJyd5g9j_bkTKd.nGz2yhrRTI%2Btzp7s5KmCcLc9XUdlJRM8HY4CEh7PyH0',
+        'if-none-match': 'W/"7b5-LQgWO3m+ftmOHUNkxTnZcPPJwbw"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/hamburg/navigation',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 163
+  },
+  level: 'info',
+  message: '\x1B[90mGET /hamburg/navigation\x1B[39m \x1B[32m200\x1B[39m \x1B[90m163ms\x1B[39m',
+  timestamp: '2025-04-17T05:02:54.163Z'
+}
+{
+  meta: {
+    req: {
+      url: '/login/hamburg',
+      headers: {
+        host: 'localhost:3001',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Brave";v="134"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'sec-gpc': '1',
+        'accept-language': 'en-US,en;q=0.5',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        cookie: '_store_session=pixAiVsI4HBzyXe9dRXh%2Bz2k3jlfqG3ENEdC4gwkQHhzqtE1BioPmwSFfgr08JCYdkLL6CZvQHcSvONM0jMzbjQUp4IxKt9YIMgOtrp%2FiG0co%2Fl8IJyi7TKCNtZASobHmosIJm%2FMRYckWUAfUBeeY1zx9J4ZCX5HIenMRRE1AWvEoxCendtCjabE7coqiSQ21z6pwTAVfZWDg0PmHUhVKb4P8rEKgVUYt63JX2xo1Z6IEpKhdzFYhUEoZ9OqFx38Rgm588y3oNWtAT%2FnK7zQpaHrDAPOkQ%3D%3D--xrWNmWQZXOS0g0y5--vEb6BX2RbBtqxUxJDnXUIQ%3D%3D; connect.sid=s%3A_DqINfDct96WnH-G9zIJyd5g9j_bkTKd.nGz2yhrRTI%2Btzp7s5KmCcLc9XUdlJRM8HY4CEh7PyH0'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/login/hamburg',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 302 },
+    responseTime: 564
+  },
+  level: 'info',
+  message: '\x1B[90mGET /login/hamburg\x1B[39m \x1B[36m302\x1B[39m \x1B[90m564ms\x1B[39m',
+  timestamp: '2025-04-17T05:03:57.342Z'
+}
+{
+  meta: {
+    req: {
+      url: '/hamburg/details',
+      headers: {
+        host: 'localhost:3001',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'sec-gpc': '1',
+        'accept-language': 'en-US,en;q=0.5',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Brave";v="134"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        cookie: '_store_session=pixAiVsI4HBzyXe9dRXh%2Bz2k3jlfqG3ENEdC4gwkQHhzqtE1BioPmwSFfgr08JCYdkLL6CZvQHcSvONM0jMzbjQUp4IxKt9YIMgOtrp%2FiG0co%2Fl8IJyi7TKCNtZASobHmosIJm%2FMRYckWUAfUBeeY1zx9J4ZCX5HIenMRRE1AWvEoxCendtCjabE7coqiSQ21z6pwTAVfZWDg0PmHUhVKb4P8rEKgVUYt63JX2xo1Z6IEpKhdzFYhUEoZ9OqFx38Rgm588y3oNWtAT%2FnK7zQpaHrDAPOkQ%3D%3D--xrWNmWQZXOS0g0y5--vEb6BX2RbBtqxUxJDnXUIQ%3D%3D; connect.sid=s%3A7f5MF8LMBg6Rdeiv-EJKD_aFTnbFpl8d.mF7M9sYsfiMD5nemcghlImt8rGT%2B52rCPf3imXoz6JI',
+        'if-none-match': 'W/"b4-5YIGwGO4wZRJ0XHakW9sp+ZbK9w"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/hamburg/details',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: '\x1B[90mGET /hamburg/details\x1B[39m \x1B[36m304\x1B[39m \x1B[90m1ms\x1B[39m',
+  timestamp: '2025-04-17T05:03:57.347Z'
+}
+{
+  meta: {
+    req: {
+      url: '/hamburg/navigation',
+      headers: {
+        host: 'localhost:3001',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Brave";v="134"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'sec-gpc': '1',
+        'accept-language': 'en-US,en;q=0.5',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        cookie: '_store_session=pixAiVsI4HBzyXe9dRXh%2Bz2k3jlfqG3ENEdC4gwkQHhzqtE1BioPmwSFfgr08JCYdkLL6CZvQHcSvONM0jMzbjQUp4IxKt9YIMgOtrp%2FiG0co%2Fl8IJyi7TKCNtZASobHmosIJm%2FMRYckWUAfUBeeY1zx9J4ZCX5HIenMRRE1AWvEoxCendtCjabE7coqiSQ21z6pwTAVfZWDg0PmHUhVKb4P8rEKgVUYt63JX2xo1Z6IEpKhdzFYhUEoZ9OqFx38Rgm588y3oNWtAT%2FnK7zQpaHrDAPOkQ%3D%3D--xrWNmWQZXOS0g0y5--vEb6BX2RbBtqxUxJDnXUIQ%3D%3D; connect.sid=s%3A7f5MF8LMBg6Rdeiv-EJKD_aFTnbFpl8d.mF7M9sYsfiMD5nemcghlImt8rGT%2B52rCPf3imXoz6JI',
+        'if-none-match': 'W/"91b-FZWIP86YpaUNS7y5aYzymhND0FI"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/hamburg/navigation',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 151
+  },
+  level: 'info',
+  message: '\x1B[90mGET /hamburg/navigation\x1B[39m \x1B[32m200\x1B[39m \x1B[90m151ms\x1B[39m',
+  timestamp: '2025-04-17T05:04:00.800Z'
+}
+{
+  meta: {
+    req: {
+      url: '/login/hamburg',
+      headers: {
+        host: 'localhost:3001',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Brave";v="134"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'sec-gpc': '1',
+        'accept-language': 'en-US,en;q=0.5',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        cookie: '_store_session=pixAiVsI4HBzyXe9dRXh%2Bz2k3jlfqG3ENEdC4gwkQHhzqtE1BioPmwSFfgr08JCYdkLL6CZvQHcSvONM0jMzbjQUp4IxKt9YIMgOtrp%2FiG0co%2Fl8IJyi7TKCNtZASobHmosIJm%2FMRYckWUAfUBeeY1zx9J4ZCX5HIenMRRE1AWvEoxCendtCjabE7coqiSQ21z6pwTAVfZWDg0PmHUhVKb4P8rEKgVUYt63JX2xo1Z6IEpKhdzFYhUEoZ9OqFx38Rgm588y3oNWtAT%2FnK7zQpaHrDAPOkQ%3D%3D--xrWNmWQZXOS0g0y5--vEb6BX2RbBtqxUxJDnXUIQ%3D%3D; connect.sid=s%3A7f5MF8LMBg6Rdeiv-EJKD_aFTnbFpl8d.mF7M9sYsfiMD5nemcghlImt8rGT%2B52rCPf3imXoz6JI'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/login/hamburg',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 302 },
+    responseTime: 671
+  },
+  level: 'info',
+  message: '\x1B[90mGET /login/hamburg\x1B[39m \x1B[36m302\x1B[39m \x1B[90m671ms\x1B[39m',
+  timestamp: '2025-04-17T05:04:53.973Z'
+}
+{
+  meta: {
+    req: {
+      url: '/hamburg/details',
+      headers: {
+        host: 'localhost:3001',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'sec-gpc': '1',
+        'accept-language': 'en-US,en;q=0.5',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Brave";v="134"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        cookie: '_store_session=pixAiVsI4HBzyXe9dRXh%2Bz2k3jlfqG3ENEdC4gwkQHhzqtE1BioPmwSFfgr08JCYdkLL6CZvQHcSvONM0jMzbjQUp4IxKt9YIMgOtrp%2FiG0co%2Fl8IJyi7TKCNtZASobHmosIJm%2FMRYckWUAfUBeeY1zx9J4ZCX5HIenMRRE1AWvEoxCendtCjabE7coqiSQ21z6pwTAVfZWDg0PmHUhVKb4P8rEKgVUYt63JX2xo1Z6IEpKhdzFYhUEoZ9OqFx38Rgm588y3oNWtAT%2FnK7zQpaHrDAPOkQ%3D%3D--xrWNmWQZXOS0g0y5--vEb6BX2RbBtqxUxJDnXUIQ%3D%3D; connect.sid=s%3Ahi3H8TGLsFuNfdudb0KPjtjrXGl1bdNu.F8lkPqQw2ROsVubLSKQdly%2Fu1s8BRHLLoBsqXPaNswQ',
+        'if-none-match': 'W/"b4-5YIGwGO4wZRJ0XHakW9sp+ZbK9w"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/hamburg/details',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 2
+  },
+  level: 'info',
+  message: '\x1B[90mGET /hamburg/details\x1B[39m \x1B[32m200\x1B[39m \x1B[90m2ms\x1B[39m',
+  timestamp: '2025-04-17T05:04:53.977Z'
+}
+{
+  meta: {
+    req: {
+      url: '/hamburg/navigation',
+      headers: {
+        host: 'localhost:3001',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Brave";v="134"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'sec-gpc': '1',
+        'accept-language': 'en-US,en;q=0.5',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        cookie: '_store_session=pixAiVsI4HBzyXe9dRXh%2Bz2k3jlfqG3ENEdC4gwkQHhzqtE1BioPmwSFfgr08JCYdkLL6CZvQHcSvONM0jMzbjQUp4IxKt9YIMgOtrp%2FiG0co%2Fl8IJyi7TKCNtZASobHmosIJm%2FMRYckWUAfUBeeY1zx9J4ZCX5HIenMRRE1AWvEoxCendtCjabE7coqiSQ21z6pwTAVfZWDg0PmHUhVKb4P8rEKgVUYt63JX2xo1Z6IEpKhdzFYhUEoZ9OqFx38Rgm588y3oNWtAT%2FnK7zQpaHrDAPOkQ%3D%3D--xrWNmWQZXOS0g0y5--vEb6BX2RbBtqxUxJDnXUIQ%3D%3D; connect.sid=s%3Ahi3H8TGLsFuNfdudb0KPjtjrXGl1bdNu.F8lkPqQw2ROsVubLSKQdly%2Fu1s8BRHLLoBsqXPaNswQ',
+        'if-none-match': 'W/"5dd-7k7Jf9sePNi2uLIjuh3bmFHrcxc"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/hamburg/navigation',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 695
+  },
+  level: 'info',
+  message: '\x1B[90mGET /hamburg/navigation\x1B[39m \x1B[36m304\x1B[39m \x1B[90m695ms\x1B[39m',
+  timestamp: '2025-04-17T05:07:24.272Z'
+}
