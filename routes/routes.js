@@ -51,8 +51,8 @@ router.get('/login/:name', async (req, res) => {
 
 
     } catch (error) {
-        logger.log('error', { message: `An internal server error occurred during registration, ${error}` })
-        res.status(500).send("An internal server error occurred during registration.");
+        logger.log('error', { message: `An internal server error occurred during agent login, ${error}` })
+        res.status(500).send("An internal server error occurred during agent login.");
     }
 })
 
@@ -67,28 +67,34 @@ router.get('/:name/details', (req, res) => {
         } else {
         }
     } catch (error) {
-        logger.log('error', { message: `An internal server error occurred during registration, ${error}` })
-        res.status(500).send("An internal server error occurred during registration.");
+        logger.log('error', { message: `An internal server error occurred during user detail retrieval, ${error}` })
+        res.status(500).send("An internal server error occurred during user detail retrieval.");
     }
 })
 
+//Every waypoint has a symbol such as X1-DF55-A1 made up of the sector, system, and location of the waypoint. For example, X1 is the sector, X1-DF55 is the system, and X1-DF55-A1 is the waypoint.
 router.get('/:name/navigation', async (req, res) => {
     try {
         let acc_name = req.params.name;
+        let headquarters = req.query.headquarters;
+        let system = req.query.system;
+        let waypoint = req.query.waypoint;
         acc_name = acc_name.toLocaleUpperCase();
         const user_info = req.session.user_info;
-        if (user_info) {
+        if (user_info && headquarters) {
             console.log("User Info from session:", user_info);
             console.log(user_info.data.headquarters);
             let headquarters_waypoint = user_info.data.headquarters;
-            let headers_system = `${headquarters_waypoint.split("-")[0]}-${headquarters_waypoint.split("-")[1]}`;
-            console.log(headers_system);
-            let location_info = await get_location_info(headers_system, headquarters_waypoint);
-            res.json(location_info);
+            let headquarters_system = `${headquarters_waypoint.split("-")[0]}-${headquarters_waypoint.split("-")[1]}`;
+            console.log(headquarters_system);
+            let headquarters_location_info = await get_location_info(headquarters_system, headquarters_waypoint);
+            res.json(headquarters_location_info);
         } else {
+            let query_location_info = await get_location_info(system, waypoint);
+            res.json(query_location_info);
         }
     } catch (error) {
-        logger.log('error', { message: `An internal server error occurred during registration, ${error}` })
+        logger.log('error', { message: `An internal server error occurred during navigation, ${error}` })
         res.status(500).send("An internal server error occurred during registration.");
     }
 })
